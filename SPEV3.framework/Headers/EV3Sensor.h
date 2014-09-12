@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 #import "EV3CommandDefinitions.h"
 
 @interface EV3Sensor : NSObject

@@ -24,13 +24,6 @@
 		CC6A5DDD19B413E700AB7A64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6A5DDB19B413E700AB7A64 /* Main.storyboard */; };
 		CC6A5DDF19B413E700AB7A64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC6A5DDE19B413E700AB7A64 /* Images.xcassets */; };
 		CC6A5DEB19B413E700AB7A64 /* MyRobotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6A5DEA19B413E700AB7A64 /* MyRobotTests.m */; };
-		CC6A5E0519B4142F00AB7A64 /* EV3Device.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6A5DF719B4142F00AB7A64 /* EV3Device.m */; };
-		CC6A5E0619B4142F00AB7A64 /* EV3DirectCommander.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6A5DF919B4142F00AB7A64 /* EV3DirectCommander.m */; };
-		CC6A5E0719B4142F00AB7A64 /* EV3Sensor.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6A5DFC19B4142F00AB7A64 /* EV3Sensor.m */; };
-		CC6A5E0819B4142F00AB7A64 /* EV3WifiBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6A5DFE19B4142F00AB7A64 /* EV3WifiBrowserViewController.m */; };
-		CC6A5E0919B4142F00AB7A64 /* EV3WifiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6A5E0019B4142F00AB7A64 /* EV3WifiManager.m */; };
-		CC6A5E0A19B4142F00AB7A64 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6A5E0219B4142F00AB7A64 /* GCDAsyncSocket.m */; };
-		CC6A5E0B19B4142F00AB7A64 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6A5E0419B4142F00AB7A64 /* GCDAsyncUdpSocket.m */; };
 		CC6A5E1019B41AEB00AB7A64 /* MyRobotTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6A5E0F19B41AEB00AB7A64 /* MyRobotTableViewCell.m */; };
 		CCA5799519B7FA190025107F /* analogue_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA5797B19B7FA190025107F /* analogue_bg.png */; };
 		CCA5799619B7FA190025107F /* analogue_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA5797C19B7FA190025107F /* analogue_bg@2x.png */; };
@@ -62,6 +55,7 @@
 		CCA579B919B7FA560025107F /* JSButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA579B319B7FA560025107F /* JSButton.m */; };
 		CCA579BA19B7FA560025107F /* JSControlLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA579B519B7FA560025107F /* JSControlLayout.m */; };
 		CCA579BB19B7FA560025107F /* JSDPad.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA579B719B7FA560025107F /* JSDPad.m */; };
+		CCA584D619C2EE3300228683 /* SPEV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA584D519C2EE3300228683 /* SPEV3.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,22 +93,6 @@
 		CC6A5DE419B413E700AB7A64 /* MyRobotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyRobotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC6A5DE919B413E700AB7A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC6A5DEA19B413E700AB7A64 /* MyRobotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyRobotTests.m; sourceTree = "<group>"; };
-		CC6A5DF519B4142F00AB7A64 /* EV3CommandDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EV3CommandDefinitions.h; sourceTree = "<group>"; };
-		CC6A5DF619B4142F00AB7A64 /* EV3Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EV3Device.h; sourceTree = "<group>"; };
-		CC6A5DF719B4142F00AB7A64 /* EV3Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EV3Device.m; sourceTree = "<group>"; };
-		CC6A5DF819B4142F00AB7A64 /* EV3DirectCommander.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EV3DirectCommander.h; sourceTree = "<group>"; };
-		CC6A5DF919B4142F00AB7A64 /* EV3DirectCommander.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EV3DirectCommander.m; sourceTree = "<group>"; };
-		CC6A5DFA19B4142F00AB7A64 /* EV3MessageType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EV3MessageType.h; sourceTree = "<group>"; };
-		CC6A5DFB19B4142F00AB7A64 /* EV3Sensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EV3Sensor.h; sourceTree = "<group>"; };
-		CC6A5DFC19B4142F00AB7A64 /* EV3Sensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EV3Sensor.m; sourceTree = "<group>"; };
-		CC6A5DFD19B4142F00AB7A64 /* EV3WifiBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EV3WifiBrowserViewController.h; sourceTree = "<group>"; };
-		CC6A5DFE19B4142F00AB7A64 /* EV3WifiBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EV3WifiBrowserViewController.m; sourceTree = "<group>"; };
-		CC6A5DFF19B4142F00AB7A64 /* EV3WifiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EV3WifiManager.h; sourceTree = "<group>"; };
-		CC6A5E0019B4142F00AB7A64 /* EV3WifiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EV3WifiManager.m; sourceTree = "<group>"; };
-		CC6A5E0119B4142F00AB7A64 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
-		CC6A5E0219B4142F00AB7A64 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
-		CC6A5E0319B4142F00AB7A64 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
-		CC6A5E0419B4142F00AB7A64 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
 		CC6A5E0D19B4168900AB7A64 /* Myrobot-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Myrobot-Prefix.pch"; sourceTree = "<group>"; };
 		CC6A5E0E19B41AEB00AB7A64 /* MyRobotTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyRobotTableViewCell.h; sourceTree = "<group>"; };
 		CC6A5E0F19B41AEB00AB7A64 /* MyRobotTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyRobotTableViewCell.m; sourceTree = "<group>"; };
@@ -152,6 +130,7 @@
 		CCA579B519B7FA560025107F /* JSControlLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSControlLayout.m; sourceTree = "<group>"; };
 		CCA579B619B7FA560025107F /* JSDPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDPad.h; sourceTree = "<group>"; };
 		CCA579B719B7FA560025107F /* JSDPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDPad.m; sourceTree = "<group>"; };
+		CCA584D519C2EE3300228683 /* SPEV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SPEV3.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCA584D619C2EE3300228683 /* SPEV3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +198,7 @@
 		CC6A5DC519B413E700AB7A64 = {
 			isa = PBXGroup;
 			children = (
+				CCA584D519C2EE3300228683 /* SPEV3.framework */,
 				CC6A5E0D19B4168900AB7A64 /* Myrobot-Prefix.pch */,
 				CC6A5DD019B413E700AB7A64 /* MyRobot */,
 				CC6A5DE719B413E700AB7A64 /* MyRobotTests */,
@@ -239,7 +220,6 @@
 			children = (
 				CCA579AF19B7FA560025107F /* ControlPad */,
 				C0B75EF419B7557800C9DB7C /* Resource */,
-				CC6A5DF419B4142F00AB7A64 /* iOS_WiFi_EV3_Library */,
 				CC6A5DD519B413E700AB7A64 /* AppDelegate.h */,
 				CC6A5DD619B413E700AB7A64 /* AppDelegate.m */,
 				CC6A5DD819B413E700AB7A64 /* ViewController.h */,
@@ -279,29 +259,6 @@
 				CC6A5DE919B413E700AB7A64 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		CC6A5DF419B4142F00AB7A64 /* iOS_WiFi_EV3_Library */ = {
-			isa = PBXGroup;
-			children = (
-				CC6A5DF519B4142F00AB7A64 /* EV3CommandDefinitions.h */,
-				CC6A5DF619B4142F00AB7A64 /* EV3Device.h */,
-				CC6A5DF719B4142F00AB7A64 /* EV3Device.m */,
-				CC6A5DF819B4142F00AB7A64 /* EV3DirectCommander.h */,
-				CC6A5DF919B4142F00AB7A64 /* EV3DirectCommander.m */,
-				CC6A5DFA19B4142F00AB7A64 /* EV3MessageType.h */,
-				CC6A5DFB19B4142F00AB7A64 /* EV3Sensor.h */,
-				CC6A5DFC19B4142F00AB7A64 /* EV3Sensor.m */,
-				CC6A5DFD19B4142F00AB7A64 /* EV3WifiBrowserViewController.h */,
-				CC6A5DFE19B4142F00AB7A64 /* EV3WifiBrowserViewController.m */,
-				CC6A5DFF19B4142F00AB7A64 /* EV3WifiManager.h */,
-				CC6A5E0019B4142F00AB7A64 /* EV3WifiManager.m */,
-				CC6A5E0119B4142F00AB7A64 /* GCDAsyncSocket.h */,
-				CC6A5E0219B4142F00AB7A64 /* GCDAsyncSocket.m */,
-				CC6A5E0319B4142F00AB7A64 /* GCDAsyncUdpSocket.h */,
-				CC6A5E0419B4142F00AB7A64 /* GCDAsyncUdpSocket.m */,
-			);
-			path = iOS_WiFi_EV3_Library;
 			sourceTree = "<group>";
 		};
 		CCA579AF19B7FA560025107F /* ControlPad */ = {
@@ -455,22 +412,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC6A5E0519B4142F00AB7A64 /* EV3Device.m in Sources */,
 				CC6A5DDA19B413E700AB7A64 /* ViewController.m in Sources */,
-				CC6A5E0719B4142F00AB7A64 /* EV3Sensor.m in Sources */,
-				CC6A5E0919B4142F00AB7A64 /* EV3WifiManager.m in Sources */,
 				CC6A5E1019B41AEB00AB7A64 /* MyRobotTableViewCell.m in Sources */,
 				CC6A5DD719B413E700AB7A64 /* AppDelegate.m in Sources */,
 				C05EEADC19B75E1B00B7D99F /* PooRobotControlViewController.m in Sources */,
-				CC6A5E0619B4142F00AB7A64 /* EV3DirectCommander.m in Sources */,
-				CC6A5E0B19B4142F00AB7A64 /* GCDAsyncUdpSocket.m in Sources */,
 				CCA579BB19B7FA560025107F /* JSDPad.m in Sources */,
-				CC6A5E0A19B4142F00AB7A64 /* GCDAsyncSocket.m in Sources */,
 				CCA579B919B7FA560025107F /* JSButton.m in Sources */,
 				CCA579B819B7FA560025107F /* JSAnalogueStick.m in Sources */,
 				CC6A5DD419B413E700AB7A64 /* main.m in Sources */,
 				CCA579BA19B7FA560025107F /* JSControlLayout.m in Sources */,
-				CC6A5E0819B4142F00AB7A64 /* EV3WifiBrowserViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -589,6 +539,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: JIEHAO DENG (RYR2KG82CG)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "Myrobot-Prefix.pch";
@@ -612,6 +567,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: JIEHAO DENG (RYR2KG82CG)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "Myrobot-Prefix.pch";

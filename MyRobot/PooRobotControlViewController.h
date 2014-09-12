@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "EV3Device.h"
+#import <SPEV3/EV3Kit.h>
 
 #import "JSDPad.h"
 #import "JSButton.h"

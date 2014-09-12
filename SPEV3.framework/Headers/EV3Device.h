@@ -9,6 +9,7 @@
 
 #import <Foundation/Foundation.h>
 #import "EV3Sensor.h"
+#import <UIKit/UIKit.h>
 
 @class GCDAsyncSocket;
 
