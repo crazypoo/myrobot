@@ -9,7 +9,8 @@
 #import "ViewController.h"
 #import "MyRobotTableViewCell.h"
 #import "PooRobotControlViewController.h"
-#import <SPEV3/EV3Kit.h>
+#import "EV3/EV3WifiManager.h"
+#import "EV3/EV3WifiBrowserViewController.h"
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 {

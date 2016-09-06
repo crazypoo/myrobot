@@ -178,7 +178,7 @@
 	
 	if ([self.delegate respondsToSelector:@selector(analogueStickDidChangeValue:)])
 	{
-		[self.delegate analogueStickDidChangeValue:self];
+		[self.delegate analogueStickTouchEnd:self];
 	}
 }
 

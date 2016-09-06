@@ -14,7 +14,7 @@
 
 @optional
 - (void)analogueStickDidChangeValue:(JSAnalogueStick *)analogueStick;
-
+-(void)analogueStickTouchEnd:(JSAnalogueStick *)stick;
 @end
 
 @interface JSAnalogueStick : UIView

@@ -11,7 +11,7 @@
 #import <AVFoundation/AVFoundation.h>
 #import <QuartzCore/QuartzCore.h>
 
-@interface PooRobotControlViewController ()
+@interface PooRobotControlViewController ()<JSAnalogueStickDelegate>
 {
     EV3Device *devicData;
     UISlider *goSlider;
@@ -80,14 +80,14 @@
         bButton = [[JSButton alloc] initWithFrame:CGRectMake(240, self.view.frame.size.height - 144, 60, 60)];
     }
     dPad.delegate = self;
-    [self.view addSubview:dPad];
-    
+//    [self.view addSubview:dPad];
+
     [[aButton titleLabel] setText:@"A"];
     [aButton setBackgroundImage:[UIImage imageNamed:@"button"]];
     [aButton setBackgroundImagePressed:[UIImage imageNamed:@"button-pressed"]];
     aButton.delegate = self;
     [self.view addSubview:aButton];
-    
+
     [[bButton titleLabel] setText:@"B"];
     [bButton setBackgroundImage:[UIImage imageNamed:@"button"]];
     [bButton setBackgroundImagePressed:[UIImage imageNamed:@"button-pressed"]];
@@ -147,7 +147,11 @@
     [videosView addSubview:aImageView];
     [videosView addSubview:videoPreviewView];
 
-    
+    JSAnalogueStick *aaaaa = [[JSAnalogueStick alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    aaaaa.delegate = self;
+    [self.view addSubview:aaaaa];
+
+
 }
 
 - (void)onConnectTap:(id)sender
@@ -580,4 +584,32 @@
     
 }
 
+
+-(void)analogueStickDidChangeValue:(JSAnalogueStick *)analogueStick
+{
+    if (analogueStick.xValue == 0|| 0 < analogueStick.yValue < 1)
+    {
+        //上
+        NSLog(@"下");
+//        [devicData turnMotorAtPort:EV3OutputPortB power:-100];
+//        [devicData turnMotorAtPort:EV3OutputPortC power:-100];
+    }
+    else if (-1<analogueStick.yValue&&analogueStick.yValue<0&&analogueStick.xValue == 0)
+    {
+        NSLog(@"上");
+    }
+    else if (analogueStick.xValue<0||analogueStick.xValue>-1||0.2>analogueStick.yValue > 0)
+    {
+        NSLog(@"zuo");
+    }
+
+    NSLog(@"%f>>>>>%f>>>>>>>>%f>>>>>>%f",analogueStick.xValue,analogueStick.yValue,analogueStick.center.x,analogueStick.center.y);
+}
+
+-(void)analogueStickTouchEnd:(JSAnalogueStick *)stick
+{
+    [devicData turnMotorAtPort:EV3OutputPortA power:0];
+    [devicData turnMotorAtPort:EV3OutputPortB power:0];
+    [devicData turnMotorAtPort:EV3OutputPortC power:0];
+}
 @end
