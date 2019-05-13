@@ -13,10 +13,11 @@
 #import "JSButton.h"
 #import "JSAnalogueStick.h"
 
-#import <GameKit/GameKit.h>
 #import <AVFoundation/AVFoundation.h>
 
-@interface PooRobotControlViewController : UIViewController<JSAnalogueStickDelegate,JSButtonDelegate,JSDPadDelegate,GKPeerPickerControllerDelegate, GKSessionDelegate, GKMatchmakerViewControllerDelegate, GKMatchDelegate, GKGameCenterControllerDelegate, AVCaptureVideoDataOutputSampleBufferDelegate>
+#import <MultipeerConnectivity/MultipeerConnectivity.h>
+
+@interface PooRobotControlViewController : UIViewController<JSAnalogueStickDelegate,JSButtonDelegate,JSDPadDelegate, MCAdvertiserAssistantDelegate,MCSessionDelegate,UINavigationControllerDelegate,UIImagePickerControllerDelegate,AVCaptureVideoDataOutputSampleBufferDelegate,MCBrowserViewControllerDelegate,UIPopoverControllerDelegate>
 
 -(id)initDeviceData:(EV3Device *)data;
 @end

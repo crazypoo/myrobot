@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0265E1C632380BD979BACF0EA3E46E27 /* WZLBadge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C95273C3BCB793459F41644A270E95B2 /* WZLBadge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53E8CAAA5BC8655B3A9691A37E1BE1A0 /* UITabBarItem+WZLBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 7768196132D2D42EC059D1E1199438E2 /* UITabBarItem+WZLBadge.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		763559203AEA79DEB781345F87159CE3 /* UIView+WZLBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 640130966F436CA64360511D9AF1DE7A /* UIView+WZLBadge.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8099EE7FC89FA5F59356F52F96522C17 /* UITabBarItem+WZLBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = DBDB54CAE7F2E5D4A85FDA0C6D8671A9 /* UITabBarItem+WZLBadge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E07EE972D2E3F47511BC059E66072D3 /* CAAnimation+WAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 387ED16700466348704AE1CBCA871DF1 /* CAAnimation+WAnimation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		902C8B1E7CA41DB8D4096E84C0AE7F20 /* WZLBadgeImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 376C5E0D11325B734A8B1DD57FE9D766 /* WZLBadgeImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91C54083F5B5BD6BBC7AFEF8E0AEBD1A /* WZLBadgeProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 45CA9E5375B89E84CB80655E8CC6AFC4 /* WZLBadgeProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABF5AE076104CF31F34B08F3F2E38F8C /* UIBarButtonItem+WZLBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E54CCA69038F1658D1487AFAC8AC54 /* UIBarButtonItem+WZLBadge.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B3888141C119CBF1FAA7424102A4A679 /* CAAnimation+WAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9F4E3FEE981F87AA9655767498F843 /* CAAnimation+WAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1D06D9975684C7B6D9E42257499BB11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFABC137AE2657C3E429E3224F2C74E6 /* Foundation.framework */; };
+		CA209B12E23B80091AF73D4C47209C31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42C8360E58DBF0AE78C539AD7D2C8D5 /* UIKit.framework */; };
+		DD422635323AA10EE10DFCFBCD96AFC5 /* UIView+WZLBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = E8BB941A71C555BE16D9587F1D429D72 /* UIView+WZLBadge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFA167C4ED1FE82D644E904E9386B5A3 /* WZLBadge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A12BF1C133823372749A5CAEF90FEA3 /* WZLBadge-dummy.m */; };
+		F594F253914BFCC4EBF73720849157B3 /* UIBarButtonItem+WZLBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = 003F139BF8B4B892EF204BA912F30216 /* UIBarButtonItem+WZLBadge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		003F139BF8B4B892EF204BA912F30216 /* UIBarButtonItem+WZLBadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+WZLBadge.h"; path = "WZLBadge/BarItem/UIBarButtonItem+WZLBadge.h"; sourceTree = "<group>"; };
+		0E09CEC69E7D743998A2B5D208FA4B83 /* WZLBadge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WZLBadge.framework; path = WZLBadge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26CB131208B7CDEE09CE1046907DD047 /* WZLBadge.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WZLBadge.xcconfig; sourceTree = "<group>"; };
+		2B9F4E3FEE981F87AA9655767498F843 /* CAAnimation+WAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAAnimation+WAnimation.h"; path = "WZLBadge/CategorySupport/CAAnimation+WAnimation.h"; sourceTree = "<group>"; };
+		376C5E0D11325B734A8B1DD57FE9D766 /* WZLBadgeImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WZLBadgeImport.h; path = WZLBadge/WZLBadgeImport.h; sourceTree = "<group>"; };
+		387ED16700466348704AE1CBCA871DF1 /* CAAnimation+WAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CAAnimation+WAnimation.m"; path = "WZLBadge/CategorySupport/CAAnimation+WAnimation.m"; sourceTree = "<group>"; };
+		3A12BF1C133823372749A5CAEF90FEA3 /* WZLBadge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WZLBadge-dummy.m"; sourceTree = "<group>"; };
+		45CA9E5375B89E84CB80655E8CC6AFC4 /* WZLBadgeProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WZLBadgeProtocol.h; path = WZLBadge/Protocol/WZLBadgeProtocol.h; sourceTree = "<group>"; };
+		583791F06021BB2FFF4BB8B7A672E757 /* WZLBadge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WZLBadge-Info.plist"; sourceTree = "<group>"; };
+		5C431D4194749AEBE804D1CFED64614A /* WZLBadge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZLBadge-prefix.pch"; sourceTree = "<group>"; };
+		61E54CCA69038F1658D1487AFAC8AC54 /* UIBarButtonItem+WZLBadge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+WZLBadge.m"; path = "WZLBadge/BarItem/UIBarButtonItem+WZLBadge.m"; sourceTree = "<group>"; };
+		640130966F436CA64360511D9AF1DE7A /* UIView+WZLBadge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WZLBadge.m"; path = "WZLBadge/View/UIView+WZLBadge.m"; sourceTree = "<group>"; };
+		7768196132D2D42EC059D1E1199438E2 /* UITabBarItem+WZLBadge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBarItem+WZLBadge.m"; path = "WZLBadge/BarItem/UITabBarItem+WZLBadge.m"; sourceTree = "<group>"; };
+		BFABC137AE2657C3E429E3224F2C74E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C95273C3BCB793459F41644A270E95B2 /* WZLBadge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZLBadge-umbrella.h"; sourceTree = "<group>"; };
+		D323508EC19B73BF8514CAA874B3A203 /* WZLBadge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WZLBadge.modulemap; sourceTree = "<group>"; };
+		D42C8360E58DBF0AE78C539AD7D2C8D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DBDB54CAE7F2E5D4A85FDA0C6D8671A9 /* UITabBarItem+WZLBadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarItem+WZLBadge.h"; path = "WZLBadge/BarItem/UITabBarItem+WZLBadge.h"; sourceTree = "<group>"; };
+		E8BB941A71C555BE16D9587F1D429D72 /* UIView+WZLBadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WZLBadge.h"; path = "WZLBadge/View/UIView+WZLBadge.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D98E6D044F8AEF8182D5D8E2FA01F55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1D06D9975684C7B6D9E42257499BB11 /* Foundation.framework in Frameworks */,
+				CA209B12E23B80091AF73D4C47209C31 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00047C7717ECDC8F7844414A87202376 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BFABC137AE2657C3E429E3224F2C74E6 /* Foundation.framework */,
+				D42C8360E58DBF0AE78C539AD7D2C8D5 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1DA207FBA64DBEBD413B6214D0F578BB /* WZLBadge */ = {
+			isa = PBXGroup;
+			children = (
+				2B9F4E3FEE981F87AA9655767498F843 /* CAAnimation+WAnimation.h */,
+				387ED16700466348704AE1CBCA871DF1 /* CAAnimation+WAnimation.m */,
+				003F139BF8B4B892EF204BA912F30216 /* UIBarButtonItem+WZLBadge.h */,
+				61E54CCA69038F1658D1487AFAC8AC54 /* UIBarButtonItem+WZLBadge.m */,
+				DBDB54CAE7F2E5D4A85FDA0C6D8671A9 /* UITabBarItem+WZLBadge.h */,
+				7768196132D2D42EC059D1E1199438E2 /* UITabBarItem+WZLBadge.m */,
+				E8BB941A71C555BE16D9587F1D429D72 /* UIView+WZLBadge.h */,
+				640130966F436CA64360511D9AF1DE7A /* UIView+WZLBadge.m */,
+				376C5E0D11325B734A8B1DD57FE9D766 /* WZLBadgeImport.h */,
+				45CA9E5375B89E84CB80655E8CC6AFC4 /* WZLBadgeProtocol.h */,
+				BA74664C6934531D5F6B1DD860ECC2F5 /* Support Files */,
+			);
+			name = WZLBadge;
+			path = WZLBadge;
+			sourceTree = "<group>";
+		};
+		BA74664C6934531D5F6B1DD860ECC2F5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D323508EC19B73BF8514CAA874B3A203 /* WZLBadge.modulemap */,
+				26CB131208B7CDEE09CE1046907DD047 /* WZLBadge.xcconfig */,
+				3A12BF1C133823372749A5CAEF90FEA3 /* WZLBadge-dummy.m */,
+				583791F06021BB2FFF4BB8B7A672E757 /* WZLBadge-Info.plist */,
+				5C431D4194749AEBE804D1CFED64614A /* WZLBadge-prefix.pch */,
+				C95273C3BCB793459F41644A270E95B2 /* WZLBadge-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WZLBadge";
+			sourceTree = "<group>";
+		};
+		BBCC0B578E9219F6928B07BA31F0ADE8 = {
+			isa = PBXGroup;
+			children = (
+				DD38CD3F15AC42765FDF3615C6033307 /* Frameworks */,
+				CFFB5CC2B34F52C3BCCA74B69D7A8545 /* Products */,
+				1DA207FBA64DBEBD413B6214D0F578BB /* WZLBadge */,
+			);
+			sourceTree = "<group>";
+		};
+		CFFB5CC2B34F52C3BCCA74B69D7A8545 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E09CEC69E7D743998A2B5D208FA4B83 /* WZLBadge.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD38CD3F15AC42765FDF3615C6033307 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00047C7717ECDC8F7844414A87202376 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C397280D620B111FCCE032530C07A682 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3888141C119CBF1FAA7424102A4A679 /* CAAnimation+WAnimation.h in Headers */,
+				F594F253914BFCC4EBF73720849157B3 /* UIBarButtonItem+WZLBadge.h in Headers */,
+				8099EE7FC89FA5F59356F52F96522C17 /* UITabBarItem+WZLBadge.h in Headers */,
+				DD422635323AA10EE10DFCFBCD96AFC5 /* UIView+WZLBadge.h in Headers */,
+				0265E1C632380BD979BACF0EA3E46E27 /* WZLBadge-umbrella.h in Headers */,
+				902C8B1E7CA41DB8D4096E84C0AE7F20 /* WZLBadgeImport.h in Headers */,
+				91C54083F5B5BD6BBC7AFEF8E0AEBD1A /* WZLBadgeProtocol.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DFF2E64C42CEF974BA2B8F2060D3B6BB /* WZLBadge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D06C49FD33BBA1AB9A4BD0383705661 /* Build configuration list for PBXNativeTarget "WZLBadge" */;
+			buildPhases = (
+				C397280D620B111FCCE032530C07A682 /* Headers */,
+				5547F78961725099625076DB0C3774AD /* Sources */,
+				0D98E6D044F8AEF8182D5D8E2FA01F55 /* Frameworks */,
+				4B15A6625079CF137481CFF5A046F4D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WZLBadge;
+			productName = WZLBadge;
+			productReference = 0E09CEC69E7D743998A2B5D208FA4B83 /* WZLBadge.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE4CAC41629565FB01579670C3A3CC0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = B8903AA1B150BAD0E48C1AEA6C4BE1AB /* Build configuration list for PBXProject "WZLBadge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BBCC0B578E9219F6928B07BA31F0ADE8;
+			productRefGroup = CFFB5CC2B34F52C3BCCA74B69D7A8545 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFF2E64C42CEF974BA2B8F2060D3B6BB /* WZLBadge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B15A6625079CF137481CFF5A046F4D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5547F78961725099625076DB0C3774AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E07EE972D2E3F47511BC059E66072D3 /* CAAnimation+WAnimation.m in Sources */,
+				ABF5AE076104CF31F34B08F3F2E38F8C /* UIBarButtonItem+WZLBadge.m in Sources */,
+				53E8CAAA5BC8655B3A9691A37E1BE1A0 /* UITabBarItem+WZLBadge.m in Sources */,
+				763559203AEA79DEB781345F87159CE3 /* UIView+WZLBadge.m in Sources */,
+				DFA167C4ED1FE82D644E904E9386B5A3 /* WZLBadge-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		03D7EF9DF0E9C4AE037391F6B8A1D6F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26CB131208B7CDEE09CE1046907DD047 /* WZLBadge.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WZLBadge/WZLBadge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WZLBadge/WZLBadge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WZLBadge/WZLBadge.modulemap";
+				PRODUCT_MODULE_NAME = WZLBadge;
+				PRODUCT_NAME = WZLBadge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		67ACB1F4A4E3F7EF28DE81EBFF0BD218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26CB131208B7CDEE09CE1046907DD047 /* WZLBadge.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WZLBadge/WZLBadge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WZLBadge/WZLBadge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WZLBadge/WZLBadge.modulemap";
+				PRODUCT_MODULE_NAME = WZLBadge;
+				PRODUCT_NAME = WZLBadge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9AD37E4F12A448AF2E1036DCFD9417D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E5A568D42747D816513161FAAEBE9503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D06C49FD33BBA1AB9A4BD0383705661 /* Build configuration list for PBXNativeTarget "WZLBadge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67ACB1F4A4E3F7EF28DE81EBFF0BD218 /* Debug */,
+				03D7EF9DF0E9C4AE037391F6B8A1D6F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8903AA1B150BAD0E48C1AEA6C4BE1AB /* Build configuration list for PBXProject "WZLBadge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD37E4F12A448AF2E1036DCFD9417D9 /* Debug */,
+				E5A568D42747D816513161FAAEBE9503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE4CAC41629565FB01579670C3A3CC0F /* Project object */;
+}

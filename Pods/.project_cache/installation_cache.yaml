@@ -1,0 +1,247 @@
+BUILD_CONFIGURATIONS:
+  Debug: :debug
+  Release: :release
+CACHE_KEYS:
+  AFNetworking:
+    BUILD_SETTINGS_CHECKSUM:
+      AFNetworking: 19308494d120663055652fa50ba5cb70
+    CHECKSUM: b6f891fdfaed196b46c7a83cf209e09697b94057
+    SPECS:
+      - AFNetworking (3.2.1)
+      - AFNetworking/NSURLSession (3.2.1)
+      - AFNetworking/Reachability (3.2.1)
+      - AFNetworking/Security (3.2.1)
+      - AFNetworking/Serialization (3.2.1)
+      - AFNetworking/UIKit (3.2.1)
+  Bagel:
+    BUILD_SETTINGS_CHECKSUM:
+      Bagel: d96d19631fa8f307b4546d6102a7e6c7
+    CHECKSUM: 199e0105ac694d6eee9db54dd006c940da6ce81b
+    SPECS:
+      - Bagel (1.3.2)
+  CocoaAsyncSocket:
+    BUILD_SETTINGS_CHECKSUM:
+      CocoaAsyncSocket: e7913feb63621314b86e46258292dbb6
+    CHECKSUM: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+    SPECS:
+      - CocoaAsyncSocket (7.6.3)
+  CYLTabBarController:
+    BUILD_SETTINGS_CHECKSUM:
+      CYLTabBarController: 552f8a5f1e334329b1ab6574563c6bac
+    CHECKSUM: 46fa053a2fb165095e04792431ad91a759bb7f9f
+    SPECS:
+      - CYLTabBarController (1.24.1)
+      - CYLTabBarController/Core (1.24.1)
+  DHSmartScreenshot:
+    BUILD_SETTINGS_CHECKSUM:
+      DHSmartScreenshot: fa44b529bfe42cd5be1ab4dc1cc8952c
+    CHECKSUM: ee749048bd7126c4826748f98df3a4adc6ad6c78
+    SPECS:
+      - DHSmartScreenshot (1.3.1)
+  DZNEmptyDataSet:
+    BUILD_SETTINGS_CHECKSUM:
+      DZNEmptyDataSet: dfb612d32bd33956c265698f680a74d0
+    CHECKSUM: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+    SPECS:
+      - DZNEmptyDataSet (1.8.1)
+  FDFullscreenPopGesture:
+    BUILD_SETTINGS_CHECKSUM:
+      FDFullscreenPopGesture: 56dfa9264d4e8de75fc2603ec4c1f061
+    CHECKSUM: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+    SPECS:
+      - FDFullscreenPopGesture (1.1)
+  fishhook:
+    BUILD_SETTINGS_CHECKSUM:
+      fishhook: 1e3996d871b23afd2019dbfad00236f9
+    CHECKSUM: ea19933abfe8f2f52c55fd8b6e2718467d3ebc89
+    SPECS:
+      - fishhook (0.2)
+  FLEX:
+    BUILD_SETTINGS_CHECKSUM:
+      FLEX: f8f647f3326b03853f52a0b1796094d3
+    CHECKSUM: d66c759bce0f6ebbbf472c742380874d846f2883
+    SPECS:
+      - FLEX (3.0.0)
+  FMDB:
+    BUILD_SETTINGS_CHECKSUM:
+      FMDB: 13a2d7bf6213720a7963192de2f54c07
+    CHECKSUM: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+    SPECS:
+      - FMDB (2.7.5)
+      - FMDB/standard (2.7.5)
+  GCDWebServer:
+    BUILD_SETTINGS_CHECKSUM:
+      GCDWebServer: 921dffb1b24606151c1a1fb3804d9ff8
+    CHECKSUM: ead88cd14596dd4eae4f5830b8877c87c8728990
+    SPECS:
+      - GCDWebServer (3.5.2)
+      - GCDWebServer/Core (3.5.2)
+      - GCDWebServer/WebUploader (3.5.2)
+  HTAutocompleteTextField:
+    BUILD_SETTINGS_CHECKSUM:
+      HTAutocompleteTextField: 6b2defffd0d1cabe7c326b3b1cc2b596
+    CHECKSUM: ce809f04875e843e20f214ab973bb496ba7a93b1
+    SPECS:
+      - HTAutocompleteTextField (1.3.2)
+  IQKeyboardManager:
+    BUILD_SETTINGS_CHECKSUM:
+      IQKeyboardManager: 7aa349d7274d120ac575604e99cd71df
+    CHECKSUM: 2ca9d64893247556f53523dcd8d78641f0ba7c23
+    SPECS:
+      - IQKeyboardManager (6.3.0)
+  JMHoledView:
+    BUILD_SETTINGS_CHECKSUM:
+      JMHoledView: b02310fceeab0370cf03c73387e5cbfc
+    CHECKSUM: fe5b140dd053a58ce551f3c7cbd674602d9aca23
+    SPECS:
+      - JMHoledView (0.2.1)
+  LSSafeProtector:
+    BUILD_SETTINGS_CHECKSUM:
+      LSSafeProtector: 285cc848e588e79946d64e5f03fd730a
+    CHECKSUM: 742e9eaadb289eaa4959e0a607728f23f5267c1b
+    SPECS:
+      - LSSafeProtector (2.1.2)
+      - LSSafeProtector/Core (2.1.2)
+      - LSSafeProtector/Foundation (2.1.2)
+      - LSSafeProtector/MRC (2.1.2)
+  LTNavigationBar:
+    BUILD_SETTINGS_CHECKSUM:
+      LTNavigationBar: dd1820dbd5ed5d50e2b87512dcdbbfa4
+    CHECKSUM: c278785bed344862e18146b5f06792932e4feacc
+    SPECS:
+      - LTNavigationBar (2.1.9)
+  Mantle:
+    BUILD_SETTINGS_CHECKSUM:
+      Mantle: b27512eaa9acc8e68b74365ff1fe22c7
+    CHECKSUM: 2fa750afa478cd625a94230fbf1c13462f29395b
+    SPECS:
+      - Mantle (2.1.0)
+      - Mantle/extobjc (2.1.0)
+  Masonry:
+    BUILD_SETTINGS_CHECKSUM:
+      Masonry: 312566d416550a98158f48c4dc80719d
+    CHECKSUM: 678fab65091a9290e40e2832a55e7ab731aad201
+    SPECS:
+      - Masonry (1.1.0)
+  MBProgressHUD:
+    BUILD_SETTINGS_CHECKSUM:
+      MBProgressHUD: 9ddcf1e04f61c1f52ce835899d840054
+    CHECKSUM: e7baa36a220447d8aeb12769bf0585582f3866d9
+    SPECS:
+      - MBProgressHUD (1.1.0)
+  MJExtension:
+    BUILD_SETTINGS_CHECKSUM:
+      MJExtension: cc81db0ac032ea484077c0f14506e60f
+    CHECKSUM: 74ec83124a68891619fb7ba9c5c811bbf1691076
+    SPECS:
+      - MJExtension (3.0.17)
+  MJRefresh:
+    BUILD_SETTINGS_CHECKSUM:
+      MJRefresh: 5e3eb75db52e764d4d0bdfcd3e3b082f
+    CHECKSUM: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+    SPECS:
+      - MJRefresh (3.2.0)
+  MYBlurIntroductionView:
+    BUILD_SETTINGS_CHECKSUM:
+      MYBlurIntroductionView: ca47c9016d6305bb6ced188870780478
+    CHECKSUM: b12651c25574580472ff34989a4c5b81c157009f
+    SPECS:
+      - MYBlurIntroductionView (1.0.3)
+  OOMDetector:
+    BUILD_SETTINGS_CHECKSUM:
+      OOMDetector: 9ed214de30be3f9a3897b4a77818f3a1
+    CHECKSUM: c23f4dfc969ea9bbd68a57cf7e5a3ca2169263cd
+    SPECS:
+      - OOMDetector (1.3)
+  Pods-MyRobot:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: 7dc3e0e7bb5741d41635cc4629a5a07c
+      Release: 12358cf1f57dc77532738b2372a39211
+  PooTools:
+    BUILD_SETTINGS_CHECKSUM:
+      PooTools: 5bdd0a035bba8a58dd4f4fe837030a33
+    CHECKSUM: a7f83bb74a4e0d25fe19a40d44023f26e13c0c54
+    SPECS:
+      - PooTools (1.11.4)
+  pop:
+    BUILD_SETTINGS_CHECKSUM:
+      pop: b4d7fe0326cd6f224e28bb3693d78dd1
+    CHECKSUM: d582054913807fd11fd50bfe6a539d91c7e1a55a
+    SPECS:
+      - pop (1.0.12)
+  QQ_MTA:
+    BUILD_SETTINGS_CHECKSUM:
+      QQ_MTA: ee037931c56da4b39af427abe3b86769
+    CHECKSUM: 14e3e25f272c11c64435676815330b5851f6e24a
+    SPECS:
+      - QQ_MTA (2.5.3)
+      - QQ_MTA/BasicAnalysis (2.5.3)
+  SDWebImage:
+    BUILD_SETTINGS_CHECKSUM:
+      SDWebImage: 571bd76ad7f5bf1fe6db43df0cc99aa2
+    CHECKSUM: 6764b5fa0f73c203728052955dbefa2bf1f33282
+    SPECS:
+      - SDWebImage (5.0.2)
+      - SDWebImage/Core (5.0.2)
+  SSZipArchive:
+    BUILD_SETTINGS_CHECKSUM:
+      SSZipArchive: fc0ed2d6e0d46b8fc5cf1e94b36bf44a
+    CHECKSUM: 8e859da2520142e09166bc9161967db296e9d02f
+    SPECS:
+      - SSZipArchive (2.2.1)
+  TextFieldEffects:
+    BUILD_SETTINGS_CHECKSUM:
+      TextFieldEffects: 0351dba5ef5380f53aebd23b8e523c3a
+    CHECKSUM: 7d372f58aeaf9acd9626bbf962680aef926b085d
+    SPECS:
+      - TextFieldEffects (1.5.1)
+  TOWebViewController:
+    BUILD_SETTINGS_CHECKSUM:
+      TOWebViewController: 4d50887c4e41d5fffc3ec2d107b67f70
+    CHECKSUM: 953a24619d32f7aa1d9d4098a74885a9236f7348
+    SPECS:
+      - TOWebViewController (2.2.8)
+      - TOWebViewController/Core (2.2.8)
+  UINavigation-SXFixSpace:
+    BUILD_SETTINGS_CHECKSUM:
+      UINavigation-SXFixSpace: 2b69b2d6ec6d101488b46444c6140289
+    CHECKSUM: 6f699939be0172b5a56f45edcdbf7a4749309a01
+    SPECS:
+      - UINavigation-SXFixSpace (1.2.1)
+  "UITableView+FDTemplateLayoutCell":
+    BUILD_SETTINGS_CHECKSUM:
+      "UITableView+FDTemplateLayoutCell": 03692e81d8afdc1d6312b482508211d2
+    CHECKSUM: 5c949b4a5059c404b442926c0e80f81d10a2d66f
+    SPECS:
+      - "UITableView+FDTemplateLayoutCell (1.6)"
+  "UITextField+Shake":
+    BUILD_SETTINGS_CHECKSUM:
+      "UITextField+Shake": d56e25307614a7c55d6566670b8962ce
+    CHECKSUM: 298ac5a0f239d731bdab999b19b628c956ca0ac3
+    SPECS:
+      - "UITextField+Shake (1.2.1)"
+  "UIViewController+Swizzled":
+    BUILD_SETTINGS_CHECKSUM:
+      "UIViewController+Swizzled": 367765f54dd65226c62e6940cf672527
+    CHECKSUM: 1cd9397598ede6930f94fbcac4b43d63c7aa0dbb
+    SPECS:
+      - "UIViewController+Swizzled (1.4)"
+  WZLBadge:
+    BUILD_SETTINGS_CHECKSUM:
+      WZLBadge: 6d7e4c3b99f7763c2da8edcdea7f77cb
+    CHECKSUM: 9ec779dcfd94c825518b395e8315fccaabff1bfa
+    SPECS:
+      - WZLBadge (1.2.6)
+  YCXMenu:
+    BUILD_SETTINGS_CHECKSUM:
+      YCXMenu: 0d9f8970fa6924e6f3b7664d0a6aa0eb
+    CHECKSUM: 6003bcd20d8ac72e3eb3c442c97ed21948c6dc1f
+    SPECS:
+      - YCXMenu (0.0.11)
+  zhPopupController:
+    BUILD_SETTINGS_CHECKSUM:
+      zhPopupController: 70e0a3b21e61db4314c01d9953f3e231
+    CHECKSUM: 4e6bd734062cb9c7ebe8113568550bade168bed7
+    SPECS:
+      - zhPopupController (1.0.3)
+OBJECT_VERSION: 46

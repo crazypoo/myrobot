@@ -1,0 +1,152 @@
+AFNetworking:
+  LABEL: AFNetworking
+  PROJECT_PATH: "/Users/crazypoo/ST/myrobot/Pods/AFNetworking.xcodeproj"
+  UUID: B561AD1B13C486A61C9BF66B4E6D8F89
+Bagel:
+  LABEL: Bagel
+  PROJECT_PATH: "/Users/crazypoo/ST/myrobot/Pods/Bagel.xcodeproj"
+  UUID: EA56E2D25BC3F436FFBB17F975A587FE
+CocoaAsyncSocket:
+  LABEL: CocoaAsyncSocket
+  PROJECT_PATH: "/Users/crazypoo/ST/myrobot/Pods/CocoaAsyncSocket.xcodeproj"
+  UUID: 028565F879BDCF0F420E4AB07AAF9426
+CYLTabBarController:
+  LABEL: CYLTabBarController
+  PROJECT_PATH: "/Users/crazypoo/ST/myrobot/Pods/CYLTabBarController.xcodeproj"
+  UUID: E5BE7965DA13687EBA7B20A4A9D99F08
+DHSmartScreenshot:
+  LABEL: DHSmartScreenshot
+  PROJECT_PATH: "/Users/crazypoo/ST/myrobot/Pods/DHSmartScreenshot.xcodeproj"
+  UUID: 74E15A00EB71D7489E6F3971A9590891
+DZNEmptyDataSet:
+  LABEL: DZNEmptyDataSet
+  PROJECT_PATH: "/Users/crazypoo/ST/myrobot/Pods/DZNEmptyDataSet.xcodeproj"
+  UUID: 5390A4813CA895AB17A02E741571EB33
+FDFullscreenPopGesture:
+  LABEL: FDFullscreenPopGesture
+  PROJECT_PATH: "/Users/crazypoo/ST/myrobot/Pods/FDFullscreenPopGesture.xcodeproj"
+  UUID: A8BAA0D80184552CA0F0647BF03C3D1B
+fishhook:
+  LABEL: fishhook
+  PROJECT_PATH: "/Users/crazypoo/ST/myrobot/Pods/fishhook.xcodeproj"
+  UUID: ADD6974CA0D12DB719FEB114A3109761
+FLEX:
+  LABEL: FLEX
+  PROJECT_PATH: "/Users/crazypoo/ST/myrobot/Pods/FLEX.xcodeproj"
+  UUID: 328257E8FD8087B7D8F384487B63F309
+FMDB:
+  LABEL: FMDB
+  PROJECT_PATH: "/Users/crazypoo/ST/myrobot/Pods/FMDB.xcodeproj"
+  UUID: CE2AA7204583492A1C9E0DF15FB92EFB
+GCDWebServer:
+  LABEL: GCDWebServer
+  PROJECT_PATH: "/Users/crazypoo/ST/myrobot/Pods/GCDWebServer.xcodeproj"
+  UUID: ED1C09F69EC2DFC2CBE72830F84DF159
+HTAutocompleteTextField:
+  LABEL: HTAutocompleteTextField
+  PROJECT_PATH: "/Users/crazypoo/ST/myrobot/Pods/HTAutocompleteTextField.xcodeproj"
+  UUID: 7B7B04646AE57E820C0087905AE4117E
+IQKeyboardManager:
+  LABEL: IQKeyboardManager
+  PROJECT_PATH: "/Users/crazypoo/ST/myrobot/Pods/IQKeyboardManager.xcodeproj"
+  UUID: 6D332532246486EC88B3F9B6BD9DC92A
+JMHoledView:
+  LABEL: JMHoledView
+  PROJECT_PATH: "/Users/crazypoo/ST/myrobot/Pods/JMHoledView.xcodeproj"
+  UUID: E87A49473782F53F6B5A4A39330FA193
+LSSafeProtector:
+  LABEL: LSSafeProtector
+  PROJECT_PATH: "/Users/crazypoo/ST/myrobot/Pods/LSSafeProtector.xcodeproj"
+  UUID: 5C2099AE92F1B3C9A717AEED868B43CF
+LTNavigationBar:
+  LABEL: LTNavigationBar
+  PROJECT_PATH: "/Users/crazypoo/ST/myrobot/Pods/LTNavigationBar.xcodeproj"
+  UUID: 955C79F7E68227ED751E3957BFCF72EC
+Mantle:
+  LABEL: Mantle
+  PROJECT_PATH: "/Users/crazypoo/ST/myrobot/Pods/Mantle.xcodeproj"
+  UUID: B7928CF315C1C12DD2CB477EBBE02285
+Masonry:
+  LABEL: Masonry
+  PROJECT_PATH: "/Users/crazypoo/ST/myrobot/Pods/Masonry.xcodeproj"
+  UUID: C0965FF775F51458AD4A8E41ABAB7D1E
+MBProgressHUD:
+  LABEL: MBProgressHUD
+  PROJECT_PATH: "/Users/crazypoo/ST/myrobot/Pods/MBProgressHUD.xcodeproj"
+  UUID: 0F48A71D28991325602E8C8A19DF1F64
+MJExtension:
+  LABEL: MJExtension
+  PROJECT_PATH: "/Users/crazypoo/ST/myrobot/Pods/MJExtension.xcodeproj"
+  UUID: 7DCB41C64D8AA20B24D05162BE708C8F
+MJRefresh:
+  LABEL: MJRefresh
+  PROJECT_PATH: "/Users/crazypoo/ST/myrobot/Pods/MJRefresh.xcodeproj"
+  UUID: E94AEF767442EDAAAAB2129CDFA2C2ED
+MYBlurIntroductionView:
+  LABEL: MYBlurIntroductionView
+  PROJECT_PATH: "/Users/crazypoo/ST/myrobot/Pods/MYBlurIntroductionView.xcodeproj"
+  UUID: B6953CD5132C7711B63E37C1338D4AA6
+OOMDetector:
+  LABEL: OOMDetector
+  PROJECT_PATH: "/Users/crazypoo/ST/myrobot/Pods/OOMDetector.xcodeproj"
+  UUID: 2B2406785A8B9CBD6DE185ECD39B35F6
+Pods-MyRobot:
+  LABEL: Pods-MyRobot
+  PROJECT_PATH: "/Users/crazypoo/ST/myrobot/Pods/Pods.xcodeproj"
+  UUID: 2CE7DB831DAF58295CD5722ED2747F72
+PooTools:
+  LABEL: PooTools
+  PROJECT_PATH: "/Users/crazypoo/ST/myrobot/Pods/PooTools.xcodeproj"
+  UUID: 723C79DDC6D176535BD50D9050356CF0
+pop:
+  LABEL: pop
+  PROJECT_PATH: "/Users/crazypoo/ST/myrobot/Pods/pop.xcodeproj"
+  UUID: 2340AB03A5C3F4065992D2D56637E54C
+QQ_MTA:
+  LABEL: QQ_MTA
+  PROJECT_PATH: "/Users/crazypoo/ST/myrobot/Pods/QQ_MTA.xcodeproj"
+  UUID: 929519CA147C76F2E0F362156548910E
+SDWebImage:
+  LABEL: SDWebImage
+  PROJECT_PATH: "/Users/crazypoo/ST/myrobot/Pods/SDWebImage.xcodeproj"
+  UUID: 4ECF4E662EEBE4FA58102FF984D920CC
+SSZipArchive:
+  LABEL: SSZipArchive
+  PROJECT_PATH: "/Users/crazypoo/ST/myrobot/Pods/SSZipArchive.xcodeproj"
+  UUID: 90CF86BC7D493DAE1C2622CE3BC678BB
+TextFieldEffects:
+  LABEL: TextFieldEffects
+  PROJECT_PATH: "/Users/crazypoo/ST/myrobot/Pods/TextFieldEffects.xcodeproj"
+  UUID: FE13F0291AB6FFAEDC24CBB3621EF751
+TOWebViewController:
+  LABEL: TOWebViewController
+  PROJECT_PATH: "/Users/crazypoo/ST/myrobot/Pods/TOWebViewController.xcodeproj"
+  UUID: D2B2E91301A67CC5DDC2CF342EF24D2E
+UINavigation-SXFixSpace:
+  LABEL: UINavigation-SXFixSpace
+  PROJECT_PATH: "/Users/crazypoo/ST/myrobot/Pods/UINavigation-SXFixSpace.xcodeproj"
+  UUID: F026AADD1F75A44EBFA2802750E74C2C
+"UITableView+FDTemplateLayoutCell":
+  LABEL: "UITableView+FDTemplateLayoutCell"
+  PROJECT_PATH: "/Users/crazypoo/ST/myrobot/Pods/UITableView+FDTemplateLayoutCell.xcodeproj"
+  UUID: A5CF12962AE63218F7BCE07569CE36DE
+"UITextField+Shake":
+  LABEL: "UITextField+Shake"
+  PROJECT_PATH: "/Users/crazypoo/ST/myrobot/Pods/UITextField+Shake.xcodeproj"
+  UUID: B3FA359F9D72B578349A54C2407F9451
+"UIViewController+Swizzled":
+  LABEL: "UIViewController+Swizzled"
+  PROJECT_PATH: "/Users/crazypoo/ST/myrobot/Pods/UIViewController+Swizzled.xcodeproj"
+  UUID: 7CE2930B499F8DA31BF3A7BCEF121D69
+WZLBadge:
+  LABEL: WZLBadge
+  PROJECT_PATH: "/Users/crazypoo/ST/myrobot/Pods/WZLBadge.xcodeproj"
+  UUID: DFF2E64C42CEF974BA2B8F2060D3B6BB
+YCXMenu:
+  LABEL: YCXMenu
+  PROJECT_PATH: "/Users/crazypoo/ST/myrobot/Pods/YCXMenu.xcodeproj"
+  UUID: 44BAAF452EF0BE4F91722A7A01338572
+zhPopupController:
+  LABEL: zhPopupController
+  PROJECT_PATH: "/Users/crazypoo/ST/myrobot/Pods/zhPopupController.xcodeproj"
+  UUID: A730DE9EE6BFB495711DA65A23A7C833

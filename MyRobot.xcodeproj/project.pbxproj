@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AEFDB115C8B7338FE6EEB7FB /* Pods_MyRobot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 304576B72A94BA7DD920192C /* Pods_MyRobot.framework */; };
 		C05EEADC19B75E1B00B7D99F /* PooRobotControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C05EEADB19B75E1B00B7D99F /* PooRobotControlViewController.m */; };
 		C0AA076D1D7E693000223510 /* EV3Device.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AA07531D7E693000223510 /* EV3Device.m */; };
 		C0AA076E1D7E693000223510 /* EV3DirectCommander.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AA07551D7E693000223510 /* EV3DirectCommander.m */; };
 		C0AA076F1D7E693000223510 /* EV3Sensor.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AA07581D7E693000223510 /* EV3Sensor.m */; };
 		C0AA07701D7E693000223510 /* EV3WifiBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AA075A1D7E693000223510 /* EV3WifiBrowserViewController.m */; };
 		C0AA07711D7E693000223510 /* EV3WifiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AA075C1D7E693000223510 /* EV3WifiManager.m */; };
-		C0AA07721D7E693000223510 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AA075E1D7E693000223510 /* GCDAsyncSocket.m */; };
-		C0AA07731D7E693000223510 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AA07601D7E693000223510 /* GCDAsyncUdpSocket.m */; };
 		C0AA07741D7E693000223510 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C0AA07611D7E693000223510 /* README.md */; };
 		C0AA07751D7E693000223510 /* ColorSensor.png in Resources */ = {isa = PBXBuildFile; fileRef = C0AA07631D7E693000223510 /* ColorSensor.png */; };
 		C0AA07761D7E693000223510 /* Empty.png in Resources */ = {isa = PBXBuildFile; fileRef = C0AA07641D7E693000223510 /* Empty.png */; };
@@ -65,6 +64,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0EBEA01A178BE33665485446 /* Pods-MyRobot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRobot.debug.xcconfig"; path = "Target Support Files/Pods-MyRobot/Pods-MyRobot.debug.xcconfig"; sourceTree = "<group>"; };
+		304576B72A94BA7DD920192C /* Pods_MyRobot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyRobot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C05EEADA19B75E1B00B7D99F /* PooRobotControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PooRobotControlViewController.h; sourceTree = "<group>"; };
 		C05EEADB19B75E1B00B7D99F /* PooRobotControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PooRobotControlViewController.m; sourceTree = "<group>"; };
 		C0AA07511D7E693000223510 /* EV3CommandDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EV3CommandDefinitions.h; sourceTree = "<group>"; };
@@ -79,10 +80,6 @@
 		C0AA075A1D7E693000223510 /* EV3WifiBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EV3WifiBrowserViewController.m; sourceTree = "<group>"; };
 		C0AA075B1D7E693000223510 /* EV3WifiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EV3WifiManager.h; sourceTree = "<group>"; };
 		C0AA075C1D7E693000223510 /* EV3WifiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EV3WifiManager.m; sourceTree = "<group>"; };
-		C0AA075D1D7E693000223510 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
-		C0AA075E1D7E693000223510 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
-		C0AA075F1D7E693000223510 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
-		C0AA07601D7E693000223510 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
 		C0AA07611D7E693000223510 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C0AA07631D7E693000223510 /* ColorSensor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ColorSensor.png; sourceTree = "<group>"; };
 		C0AA07641D7E693000223510 /* Empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Empty.png; sourceTree = "<group>"; };
@@ -95,6 +92,7 @@
 		C0AA076B1D7E693000223510 /* UltrasonicSensor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UltrasonicSensor.png; sourceTree = "<group>"; };
 		C0AA076C1D7E693000223510 /* Unknown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Unknown.png; sourceTree = "<group>"; };
 		C0AA077F1D7E6B3200223510 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C0B5E47222894C5800D32503 /* MyRobot-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyRobot-Bridging-Header.h"; sourceTree = "<group>"; };
 		CC6A5DCE19B413E700AB7A64 /* MyRobot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRobot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC6A5DD219B413E700AB7A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC6A5DD319B413E700AB7A64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -140,6 +138,7 @@
 		CCA579B519B7FA560025107F /* JSControlLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSControlLayout.m; sourceTree = "<group>"; };
 		CCA579B619B7FA560025107F /* JSDPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDPad.h; sourceTree = "<group>"; };
 		CCA579B719B7FA560025107F /* JSDPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDPad.m; sourceTree = "<group>"; };
+		E2BC896DDFC3AE80F9A7DF22 /* Pods-MyRobot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRobot.release.xcconfig"; path = "Target Support Files/Pods-MyRobot/Pods-MyRobot.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,12 +146,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEFDB115C8B7338FE6EEB7FB /* Pods_MyRobot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A66811BCD4073BFD4F7FF9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				304576B72A94BA7DD920192C /* Pods_MyRobot.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7EE94E66E8109820435C8AC8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0EBEA01A178BE33665485446 /* Pods-MyRobot.debug.xcconfig */,
+				E2BC896DDFC3AE80F9A7DF22 /* Pods-MyRobot.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C0AA07501D7E693000223510 /* EV3 */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,12 +185,9 @@
 				C0AA075A1D7E693000223510 /* EV3WifiBrowserViewController.m */,
 				C0AA075B1D7E693000223510 /* EV3WifiManager.h */,
 				C0AA075C1D7E693000223510 /* EV3WifiManager.m */,
-				C0AA075D1D7E693000223510 /* GCDAsyncSocket.h */,
-				C0AA075E1D7E693000223510 /* GCDAsyncSocket.m */,
-				C0AA075F1D7E693000223510 /* GCDAsyncUdpSocket.h */,
-				C0AA07601D7E693000223510 /* GCDAsyncUdpSocket.m */,
 				C0AA07611D7E693000223510 /* README.md */,
 				C0AA07621D7E693000223510 /* Resource */,
+				C0B5E47222894C5800D32503 /* MyRobot-Bridging-Header.h */,
 			);
 			path = EV3;
 			sourceTree = "<group>";
@@ -234,6 +248,8 @@
 				CC6A5E0D19B4168900AB7A64 /* Myrobot-Prefix.pch */,
 				CC6A5DD019B413E700AB7A64 /* MyRobot */,
 				CC6A5DCF19B413E700AB7A64 /* Products */,
+				7EE94E66E8109820435C8AC8 /* Pods */,
+				4A66811BCD4073BFD4F7FF9D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -297,9 +313,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC6A5DEE19B413E700AB7A64 /* Build configuration list for PBXNativeTarget "MyRobot" */;
 			buildPhases = (
+				9A5B7531237983A110F1C482 /* [CP] Check Pods Manifest.lock */,
 				CC6A5DCA19B413E700AB7A64 /* Sources */,
 				CC6A5DCB19B413E700AB7A64 /* Frameworks */,
 				CC6A5DCC19B413E700AB7A64 /* Resources */,
+				7C6757190C139ECDD3E9B46C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -317,18 +335,19 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = Poo;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = crazypoo;
 				TargetAttributes = {
 					CC6A5DCD19B413E700AB7A64 = {
 						CreatedOnToolsVersion = 6.0;
-						DevelopmentTeam = 4J78PPRJ42;
+						DevelopmentTeam = FA9SE57VK7;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
 			buildConfigurationList = CC6A5DC919B413E700AB7A64 /* Build configuration list for PBXProject "MyRobot" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -392,6 +411,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7C6757190C139ECDD3E9B46C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyRobot/Pods-MyRobot-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Bagel/Bagel.framework",
+				"${BUILT_PRODUCTS_DIR}/CYLTabBarController/CYLTabBarController.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/DHSmartScreenshot/DHSmartScreenshot.framework",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/FDFullscreenPopGesture/FDFullscreenPopGesture.framework",
+				"${BUILT_PRODUCTS_DIR}/FLEX/FLEX.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/GCDWebServer/GCDWebServer.framework",
+				"${BUILT_PRODUCTS_DIR}/HTAutocompleteTextField/HTAutocompleteTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/JMHoledView/JMHoledView.framework",
+				"${BUILT_PRODUCTS_DIR}/LSSafeProtector/LSSafeProtector.framework",
+				"${BUILT_PRODUCTS_DIR}/LTNavigationBar/LTNavigationBar.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/MYBlurIntroductionView/MYBlurIntroductionView.framework",
+				"${BUILT_PRODUCTS_DIR}/Mantle/Mantle.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/OOMDetector/OOMDetector.framework",
+				"${BUILT_PRODUCTS_DIR}/PooTools/PooTools.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework",
+				"${BUILT_PRODUCTS_DIR}/TOWebViewController/TOWebViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+				"${BUILT_PRODUCTS_DIR}/UINavigation-SXFixSpace/UINavigation_SXFixSpace.framework",
+				"${BUILT_PRODUCTS_DIR}/UITableView+FDTemplateLayoutCell/UITableView_FDTemplateLayoutCell.framework",
+				"${BUILT_PRODUCTS_DIR}/UITextField+Shake/UITextField_Shake.framework",
+				"${BUILT_PRODUCTS_DIR}/UIViewController+Swizzled/UIViewController_Swizzled.framework",
+				"${BUILT_PRODUCTS_DIR}/WZLBadge/WZLBadge.framework",
+				"${BUILT_PRODUCTS_DIR}/YCXMenu/YCXMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/fishhook/fishhook.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+				"${BUILT_PRODUCTS_DIR}/zhPopupController/zhPopupController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bagel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CYLTabBarController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DHSmartScreenshot.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FDFullscreenPopGesture.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLEX.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GCDWebServer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HTAutocompleteTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JMHoledView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LSSafeProtector.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LTNavigationBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MYBlurIntroductionView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mantle.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OOMDetector.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PooTools.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSZipArchive.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TOWebViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UINavigation_SXFixSpace.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UITableView_FDTemplateLayoutCell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UITextField_Shake.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIViewController_Swizzled.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WZLBadge.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YCXMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/fishhook.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/zhPopupController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyRobot/Pods-MyRobot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A5B7531237983A110F1C482 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyRobot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CC6A5DCA19B413E700AB7A64 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -403,14 +535,12 @@
 				C0AA076D1D7E693000223510 /* EV3Device.m in Sources */,
 				C0AA076E1D7E693000223510 /* EV3DirectCommander.m in Sources */,
 				CC6A5DD719B413E700AB7A64 /* AppDelegate.m in Sources */,
-				C0AA07721D7E693000223510 /* GCDAsyncSocket.m in Sources */,
 				C05EEADC19B75E1B00B7D99F /* PooRobotControlViewController.m in Sources */,
 				C0AA07701D7E693000223510 /* EV3WifiBrowserViewController.m in Sources */,
 				CCA579BB19B7FA560025107F /* JSDPad.m in Sources */,
 				CCA579B919B7FA560025107F /* JSButton.m in Sources */,
 				C0AA07741D7E693000223510 /* README.md in Sources */,
 				CCA579B819B7FA560025107F /* JSAnalogueStick.m in Sources */,
-				C0AA07731D7E693000223510 /* GCDAsyncUdpSocket.m in Sources */,
 				C0AA07711D7E693000223510 /* EV3WifiManager.m in Sources */,
 				CC6A5DD419B413E700AB7A64 /* main.m in Sources */,
 				CCA579BA19B7FA560025107F /* JSControlLayout.m in Sources */,
@@ -424,17 +554,28 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -443,6 +584,7 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -467,17 +609,28 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -485,6 +638,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -501,11 +655,14 @@
 		};
 		CC6A5DEF19B413E700AB7A64 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EBEA01A178BE33665485446 /* Pods-MyRobot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = FA9SE57VK7;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -515,7 +672,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "Myrobot-Prefix.pch";
 				INFOPLIST_FILE = MyRobot/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -524,17 +681,23 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.omcn.MyRobot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyRobot/EV3/MyRobot-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VALID_ARCHS = "arm64 armv7s armv7";
 			};
 			name = Debug;
 		};
 		CC6A5DF019B413E700AB7A64 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2BC896DDFC3AE80F9A7DF22 /* Pods-MyRobot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = FA9SE57VK7;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -544,7 +707,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "Myrobot-Prefix.pch";
 				INFOPLIST_FILE = MyRobot/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -553,6 +716,8 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.omcn.MyRobot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyRobot/EV3/MyRobot-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				VALID_ARCHS = "arm64 armv7s armv7";
 			};
 			name = Release;

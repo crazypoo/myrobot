@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F26313C10F244DD577BA2020E9A0D0D /* UINavigationItem+SXFixSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = C86A41697FB4A7B87EA29B08276B3F3C /* UINavigationItem+SXFixSpace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12902569EC43D5FF7B38864748473134 /* NSObject+SXRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 69BFD6D843F0F9B8B7CED7F92A7B5055 /* NSObject+SXRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49099D82ECD68AB7482EF9EA49A764AE /* UINavigationConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = AC03AF6846AD0D8E52ED7770FB5A1C3E /* UINavigationConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54066B4071BCA012E13BFA364DFE1E70 /* UINavigationBar+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D88A49EDF65AF52932A83640E73BC2 /* UINavigationBar+SXFixSpace.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6ABDD6529B8C65FD1B81FCE77B835CC1 /* UINavigation-SXFixSpace-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FDD1BCD8CC151C73FDB6E0809919171 /* UINavigation-SXFixSpace-dummy.m */; };
+		71C996DAD0047F6D46EA67F402B07DB2 /* UINavigationConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = AE79ED04D67AA7E7C8112A5F5AC1D36E /* UINavigationConfig.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7210498AF31CDA816175C00084860694 /* UINavigationItem+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = F15409E4D82F95BAF261EDC00EE4CB19 /* UINavigationItem+SXFixSpace.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		95AEEA4A1437F3C8F2F7E883C1788EE1 /* UINavigation-SXFixSpace-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98690E1009DC2DDA5368B310A6ED22A3 /* UINavigation-SXFixSpace-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE37B0277E104417714D24516197B21A /* UIViewController+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F1E36CFF545FB8134E387E205FAB1 /* UIViewController+SXFixSpace.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BF91104C014DABA027BC467AFA85643C /* NSObject+SXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B866A6F0199D2A264504C98576255E /* NSObject+SXRuntime.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DB876A3255EC7FB98009C9E826D6A0CF /* UIViewController+SXFixSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = 97516AA301C9389E97DE546158F252D9 /* UIViewController+SXFixSpace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E238F77A8D881173B89146FC9CCDAE14 /* UINavigationBar+SXFixSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = C27A1B8EABFC1D77548088FFC3614131 /* UINavigationBar+SXFixSpace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9BBC1C90601B75947A7E26766B52B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40403B896C53E78EFAC71D7438FAADF3 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		092F1E36CFF545FB8134E387E205FAB1 /* UIViewController+SXFixSpace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+SXFixSpace.m"; path = "UINavigation-SXFixSpace/UIViewController+SXFixSpace.m"; sourceTree = "<group>"; };
+		0FDD1BCD8CC151C73FDB6E0809919171 /* UINavigation-SXFixSpace-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigation-SXFixSpace-dummy.m"; sourceTree = "<group>"; };
+		16F43172E5BC6069C51F493A1D92D8AE /* UINavigation_SXFixSpace.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UINavigation_SXFixSpace.framework; path = "UINavigation-SXFixSpace.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ADD6B5727CC8F275437380ADCC3BF0E /* UINavigation-SXFixSpace-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UINavigation-SXFixSpace-Info.plist"; sourceTree = "<group>"; };
+		40403B896C53E78EFAC71D7438FAADF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		584D1068F67C97603F581555744A5E48 /* UINavigation-SXFixSpace-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigation-SXFixSpace-prefix.pch"; sourceTree = "<group>"; };
+		69BFD6D843F0F9B8B7CED7F92A7B5055 /* NSObject+SXRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+SXRuntime.h"; path = "UINavigation-SXFixSpace/NSObject+SXRuntime.h"; sourceTree = "<group>"; };
+		97516AA301C9389E97DE546158F252D9 /* UIViewController+SXFixSpace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+SXFixSpace.h"; path = "UINavigation-SXFixSpace/UIViewController+SXFixSpace.h"; sourceTree = "<group>"; };
+		98690E1009DC2DDA5368B310A6ED22A3 /* UINavigation-SXFixSpace-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigation-SXFixSpace-umbrella.h"; sourceTree = "<group>"; };
+		AC03AF6846AD0D8E52ED7770FB5A1C3E /* UINavigationConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UINavigationConfig.h; path = "UINavigation-SXFixSpace/UINavigationConfig.h"; sourceTree = "<group>"; };
+		AE79ED04D67AA7E7C8112A5F5AC1D36E /* UINavigationConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UINavigationConfig.m; path = "UINavigation-SXFixSpace/UINavigationConfig.m"; sourceTree = "<group>"; };
+		B0F785B48B41B6CD446BA6385E100F4E /* UINavigation-SXFixSpace.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "UINavigation-SXFixSpace.modulemap"; sourceTree = "<group>"; };
+		C27A1B8EABFC1D77548088FFC3614131 /* UINavigationBar+SXFixSpace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+SXFixSpace.h"; path = "UINavigation-SXFixSpace/UINavigationBar+SXFixSpace.h"; sourceTree = "<group>"; };
+		C86A41697FB4A7B87EA29B08276B3F3C /* UINavigationItem+SXFixSpace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationItem+SXFixSpace.h"; path = "UINavigation-SXFixSpace/UINavigationItem+SXFixSpace.h"; sourceTree = "<group>"; };
+		C9D88A49EDF65AF52932A83640E73BC2 /* UINavigationBar+SXFixSpace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+SXFixSpace.m"; path = "UINavigation-SXFixSpace/UINavigationBar+SXFixSpace.m"; sourceTree = "<group>"; };
+		D2B866A6F0199D2A264504C98576255E /* NSObject+SXRuntime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SXRuntime.m"; path = "UINavigation-SXFixSpace/NSObject+SXRuntime.m"; sourceTree = "<group>"; };
+		E862110402A32900AE5A0FA445F21918 /* UINavigation-SXFixSpace.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UINavigation-SXFixSpace.xcconfig"; sourceTree = "<group>"; };
+		F15409E4D82F95BAF261EDC00EE4CB19 /* UINavigationItem+SXFixSpace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationItem+SXFixSpace.m"; path = "UINavigation-SXFixSpace/UINavigationItem+SXFixSpace.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77E49A9A9307AF4300A0080526460855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BBC1C90601B75947A7E26766B52B81 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BEE145E41079608E49C3EBBC2AB7B78 /* UINavigation-SXFixSpace */ = {
+			isa = PBXGroup;
+			children = (
+				69BFD6D843F0F9B8B7CED7F92A7B5055 /* NSObject+SXRuntime.h */,
+				D2B866A6F0199D2A264504C98576255E /* NSObject+SXRuntime.m */,
+				C27A1B8EABFC1D77548088FFC3614131 /* UINavigationBar+SXFixSpace.h */,
+				C9D88A49EDF65AF52932A83640E73BC2 /* UINavigationBar+SXFixSpace.m */,
+				AC03AF6846AD0D8E52ED7770FB5A1C3E /* UINavigationConfig.h */,
+				AE79ED04D67AA7E7C8112A5F5AC1D36E /* UINavigationConfig.m */,
+				C86A41697FB4A7B87EA29B08276B3F3C /* UINavigationItem+SXFixSpace.h */,
+				F15409E4D82F95BAF261EDC00EE4CB19 /* UINavigationItem+SXFixSpace.m */,
+				97516AA301C9389E97DE546158F252D9 /* UIViewController+SXFixSpace.h */,
+				092F1E36CFF545FB8134E387E205FAB1 /* UIViewController+SXFixSpace.m */,
+				F7436ED68C444787D11E51C4C60344A8 /* Support Files */,
+			);
+			name = "UINavigation-SXFixSpace";
+			path = "UINavigation-SXFixSpace";
+			sourceTree = "<group>";
+		};
+		0D55A1D2A892CBEE9AD2D743ED68A548 = {
+			isa = PBXGroup;
+			children = (
+				9CAF050CB6F6D00613D3C6DAA5157385 /* Frameworks */,
+				64389E8508D697A03949F30440F0402C /* Products */,
+				0BEE145E41079608E49C3EBBC2AB7B78 /* UINavigation-SXFixSpace */,
+			);
+			sourceTree = "<group>";
+		};
+		59684E80B2FE331050A652EBB7ADF0A0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				40403B896C53E78EFAC71D7438FAADF3 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		64389E8508D697A03949F30440F0402C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16F43172E5BC6069C51F493A1D92D8AE /* UINavigation_SXFixSpace.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CAF050CB6F6D00613D3C6DAA5157385 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59684E80B2FE331050A652EBB7ADF0A0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7436ED68C444787D11E51C4C60344A8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0F785B48B41B6CD446BA6385E100F4E /* UINavigation-SXFixSpace.modulemap */,
+				E862110402A32900AE5A0FA445F21918 /* UINavigation-SXFixSpace.xcconfig */,
+				0FDD1BCD8CC151C73FDB6E0809919171 /* UINavigation-SXFixSpace-dummy.m */,
+				2ADD6B5727CC8F275437380ADCC3BF0E /* UINavigation-SXFixSpace-Info.plist */,
+				584D1068F67C97603F581555744A5E48 /* UINavigation-SXFixSpace-prefix.pch */,
+				98690E1009DC2DDA5368B310A6ED22A3 /* UINavigation-SXFixSpace-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UINavigation-SXFixSpace";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C257F3CAD22C1525701BA644D9865150 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12902569EC43D5FF7B38864748473134 /* NSObject+SXRuntime.h in Headers */,
+				95AEEA4A1437F3C8F2F7E883C1788EE1 /* UINavigation-SXFixSpace-umbrella.h in Headers */,
+				E238F77A8D881173B89146FC9CCDAE14 /* UINavigationBar+SXFixSpace.h in Headers */,
+				49099D82ECD68AB7482EF9EA49A764AE /* UINavigationConfig.h in Headers */,
+				0F26313C10F244DD577BA2020E9A0D0D /* UINavigationItem+SXFixSpace.h in Headers */,
+				DB876A3255EC7FB98009C9E826D6A0CF /* UIViewController+SXFixSpace.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F026AADD1F75A44EBFA2802750E74C2C /* UINavigation-SXFixSpace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B1509F2D49D5806AD441D7431AFF9DC /* Build configuration list for PBXNativeTarget "UINavigation-SXFixSpace" */;
+			buildPhases = (
+				C257F3CAD22C1525701BA644D9865150 /* Headers */,
+				0AE5360029209ECFE1C401B6CBF68812 /* Sources */,
+				77E49A9A9307AF4300A0080526460855 /* Frameworks */,
+				8A8EA5C2716BFC0BB3DD80970E24C253 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UINavigation-SXFixSpace";
+			productName = "UINavigation-SXFixSpace";
+			productReference = 16F43172E5BC6069C51F493A1D92D8AE /* UINavigation_SXFixSpace.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6130037CC97E57D3E98D179606DAC9E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 46C3BF43943F0B50013AB9BE35202357 /* Build configuration list for PBXProject "UINavigation-SXFixSpace" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0D55A1D2A892CBEE9AD2D743ED68A548;
+			productRefGroup = 64389E8508D697A03949F30440F0402C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F026AADD1F75A44EBFA2802750E74C2C /* UINavigation-SXFixSpace */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A8EA5C2716BFC0BB3DD80970E24C253 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AE5360029209ECFE1C401B6CBF68812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF91104C014DABA027BC467AFA85643C /* NSObject+SXRuntime.m in Sources */,
+				6ABDD6529B8C65FD1B81FCE77B835CC1 /* UINavigation-SXFixSpace-dummy.m in Sources */,
+				54066B4071BCA012E13BFA364DFE1E70 /* UINavigationBar+SXFixSpace.m in Sources */,
+				71C996DAD0047F6D46EA67F402B07DB2 /* UINavigationConfig.m in Sources */,
+				7210498AF31CDA816175C00084860694 /* UINavigationItem+SXFixSpace.m in Sources */,
+				AE37B0277E104417714D24516197B21A /* UIViewController+SXFixSpace.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		412CB0AD39E9435E2A0169DEDC796674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E862110402A32900AE5A0FA445F21918 /* UINavigation-SXFixSpace.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UINavigation-SXFixSpace/UINavigation-SXFixSpace-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UINavigation-SXFixSpace/UINavigation-SXFixSpace-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UINavigation-SXFixSpace/UINavigation-SXFixSpace.modulemap";
+				PRODUCT_MODULE_NAME = UINavigation_SXFixSpace;
+				PRODUCT_NAME = UINavigation_SXFixSpace;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		94044CB1B4CE7A303B1F7E3F27EF8ED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C621405120910E393CE310CD9AE19E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E862110402A32900AE5A0FA445F21918 /* UINavigation-SXFixSpace.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UINavigation-SXFixSpace/UINavigation-SXFixSpace-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UINavigation-SXFixSpace/UINavigation-SXFixSpace-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UINavigation-SXFixSpace/UINavigation-SXFixSpace.modulemap";
+				PRODUCT_MODULE_NAME = UINavigation_SXFixSpace;
+				PRODUCT_NAME = UINavigation_SXFixSpace;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D9424A95787067C651A522C8E9F6EFD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B1509F2D49D5806AD441D7431AFF9DC /* Build configuration list for PBXNativeTarget "UINavigation-SXFixSpace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C621405120910E393CE310CD9AE19E90 /* Debug */,
+				412CB0AD39E9435E2A0169DEDC796674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46C3BF43943F0B50013AB9BE35202357 /* Build configuration list for PBXProject "UINavigation-SXFixSpace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94044CB1B4CE7A303B1F7E3F27EF8ED4 /* Debug */,
+				D9424A95787067C651A522C8E9F6EFD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6130037CC97E57D3E98D179606DAC9E0 /* Project object */;
+}

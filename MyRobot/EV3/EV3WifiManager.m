@@ -7,8 +7,8 @@
 //
 
 #import "EV3WifiManager.h"
-#import "GCDAsyncSocket.h"
-#import "GCDAsyncUdpSocket.h"
+#import <CocoaAsyncSocket/GCDAsyncSocket.h>
+#import <CocoaAsyncSocket/GCDAsyncUdpSocket.h>
 
 #import "EV3DirectCommander.h"
 
@@ -16,7 +16,7 @@
 
 
 
-@interface EV3WifiManager ()
+@interface EV3WifiManager ()<GCDAsyncSocketDelegate,GCDAsyncUdpSocketDelegate>
 @property (nonatomic,strong,readwrite) GCDAsyncUdpSocket *udpSocket;
 @property (nonatomic,strong,readwrite) NSMutableDictionary *devices;
 @property (nonatomic,strong) NSTimer *timer;

@@ -16,6 +16,9 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import <PooTools/PMacros.h>
+    #import <PooTools/Utils.h>
+    #import <Masonry/Masonry.h>
 #endif
 
 #define isIPad [[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad

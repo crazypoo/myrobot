@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		929519CA147C76F2E0F362156548910E /* QQ_MTA */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 13BE6B5B0E3EEBD328727CA3A30179E4 /* Build configuration list for PBXAggregateTarget "QQ_MTA" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = QQ_MTA;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXFileReference section */
+		0067F61527B3BB20DD9A10CD45A3D7A6 /* MTA+Account.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MTA+Account.h"; path = "MTA/MTA+Account.h"; sourceTree = "<group>"; };
+		746C84286DE58F6686D360118DCB4AA5 /* libmtasdk.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libmtasdk.a; path = MTA/libmtasdk.a; sourceTree = "<group>"; };
+		95C33589134B6BB0C447527ED26ABC1A /* MTAConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTAConfig.h; path = MTA/MTAConfig.h; sourceTree = "<group>"; };
+		D20D6B65D3F9B7D6F190892503454A4C /* QQ_MTA.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QQ_MTA.xcconfig; sourceTree = "<group>"; };
+		EC895649F6737933B2300A2F8D8BA2D9 /* MTA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTA.h; path = MTA/MTA.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		10B48F57876C0A365AC51F03761F259C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		176F743D34D583148EB5CF4FB91B334B /* BasicAnalysis */ = {
+			isa = PBXGroup;
+			children = (
+				EC895649F6737933B2300A2F8D8BA2D9 /* MTA.h */,
+				0067F61527B3BB20DD9A10CD45A3D7A6 /* MTA+Account.h */,
+				95C33589134B6BB0C447527ED26ABC1A /* MTAConfig.h */,
+				CB4BCD4D2A6C67B858E2590CE1CD8B9A /* Frameworks */,
+			);
+			name = BasicAnalysis;
+			sourceTree = "<group>";
+		};
+		6A9A52CFDAEFC50E31971B3C4259A1B9 = {
+			isa = PBXGroup;
+			children = (
+				A608A87CA5B65C99EC49CDF7492F1763 /* Frameworks */,
+				10B48F57876C0A365AC51F03761F259C /* Products */,
+				DD77856724F3E126B57EFA7B800D3A61 /* QQ_MTA */,
+			);
+			sourceTree = "<group>";
+		};
+		A608A87CA5B65C99EC49CDF7492F1763 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD086CFED91B69980DE1FC7ED2154F66 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D20D6B65D3F9B7D6F190892503454A4C /* QQ_MTA.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/QQ_MTA";
+			sourceTree = "<group>";
+		};
+		CB4BCD4D2A6C67B858E2590CE1CD8B9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				746C84286DE58F6686D360118DCB4AA5 /* libmtasdk.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD77856724F3E126B57EFA7B800D3A61 /* QQ_MTA */ = {
+			isa = PBXGroup;
+			children = (
+				176F743D34D583148EB5CF4FB91B334B /* BasicAnalysis */,
+				BD086CFED91B69980DE1FC7ED2154F66 /* Support Files */,
+			);
+			name = QQ_MTA;
+			path = QQ_MTA;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		C73DA3EE3C9DAB0173DD8D382B80811B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 1357756FE44BDFFD6ED72D3D3BCE9BA5 /* Build configuration list for PBXProject "QQ_MTA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6A9A52CFDAEFC50E31971B3C4259A1B9;
+			productRefGroup = 10B48F57876C0A365AC51F03761F259C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				929519CA147C76F2E0F362156548910E /* QQ_MTA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		370F7018C7655C7E2F2B7A0AEF5497B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D20D6B65D3F9B7D6F190892503454A4C /* QQ_MTA.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		884543EDD9CE8FE2725118ABB15FB921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D20D6B65D3F9B7D6F190892503454A4C /* QQ_MTA.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A264B00361130234D986E8D168C2B316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CC98E84ED58E3C563A615CFEC3F1B158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1357756FE44BDFFD6ED72D3D3BCE9BA5 /* Build configuration list for PBXProject "QQ_MTA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC98E84ED58E3C563A615CFEC3F1B158 /* Debug */,
+				A264B00361130234D986E8D168C2B316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13BE6B5B0E3EEBD328727CA3A30179E4 /* Build configuration list for PBXAggregateTarget "QQ_MTA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884543EDD9CE8FE2725118ABB15FB921 /* Debug */,
+				370F7018C7655C7E2F2B7A0AEF5497B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C73DA3EE3C9DAB0173DD8D382B80811B /* Project object */;
+}

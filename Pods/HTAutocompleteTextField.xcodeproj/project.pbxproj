@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2005F92C22768B720100AD49B3651286 /* HTAutocompleteTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BF6B4029097ADFB6DA52499C8A3264 /* HTAutocompleteTextField.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5FDFFBEBE9942AD4F3E2A50AB7C6DF39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE1B2E4A246B73E8EA55D7DB3E01927 /* Foundation.framework */; };
+		A9525978F7B853F057A6A9432C1ECF36 /* HTAutocompleteTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18798F9619DCB704DCD7F1D1C178F63E /* HTAutocompleteTextField-dummy.m */; };
+		BB996CB98815964CDB7DB368EA49A97B /* HTEmailAutocompleteTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = E40FC4CF9087733EC869CBBE3DB23DBE /* HTEmailAutocompleteTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF1CB72A16C80998FF17B6D703A6F792 /* HTAutocompleteTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 31279D9CF6631A421E09CA6B29F4332F /* HTAutocompleteTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDF22A6A68A0A90CCA7A918446733C42 /* HTAutocompleteTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC240E38B8EFB7B0ADE411B152C318FD /* HTAutocompleteTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F309BA0953D14686565268D9C709CA23 /* HTEmailAutocompleteTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = AE55A5884D1CFC81DBFB64E66404B63E /* HTEmailAutocompleteTextField.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18798F9619DCB704DCD7F1D1C178F63E /* HTAutocompleteTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTAutocompleteTextField-dummy.m"; sourceTree = "<group>"; };
+		31279D9CF6631A421E09CA6B29F4332F /* HTAutocompleteTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTAutocompleteTextField.h; path = Classes/HTAutocompleteTextField.h; sourceTree = "<group>"; };
+		8B3B4922CF6A727692CBFFFE56F67858 /* HTAutocompleteTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HTAutocompleteTextField.xcconfig; sourceTree = "<group>"; };
+		A7BF6B4029097ADFB6DA52499C8A3264 /* HTAutocompleteTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTAutocompleteTextField.m; path = Classes/HTAutocompleteTextField.m; sourceTree = "<group>"; };
+		AE55A5884D1CFC81DBFB64E66404B63E /* HTEmailAutocompleteTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTEmailAutocompleteTextField.m; path = Classes/HTEmailAutocompleteTextField.m; sourceTree = "<group>"; };
+		B4DD458B36966E0405CBBFB5BB3BCE0D /* HTAutocompleteTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTAutocompleteTextField-prefix.pch"; sourceTree = "<group>"; };
+		CEE1B2E4A246B73E8EA55D7DB3E01927 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DC240E38B8EFB7B0ADE411B152C318FD /* HTAutocompleteTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTAutocompleteTextField-umbrella.h"; sourceTree = "<group>"; };
+		E40FC4CF9087733EC869CBBE3DB23DBE /* HTEmailAutocompleteTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTEmailAutocompleteTextField.h; path = Classes/HTEmailAutocompleteTextField.h; sourceTree = "<group>"; };
+		E67729C8D94DDC8C21AADEE99418120E /* HTAutocompleteTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HTAutocompleteTextField.framework; path = HTAutocompleteTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEC970578FBC6C8B5A8B04208171BC0C /* HTAutocompleteTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HTAutocompleteTextField-Info.plist"; sourceTree = "<group>"; };
+		EFA2E2F6D30A35F81A066A07EE923DB8 /* HTAutocompleteTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HTAutocompleteTextField.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6F6A777198641C2F69A1C3B4BFBE501 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FDFFBEBE9942AD4F3E2A50AB7C6DF39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0162CB21F9286F0AB315C7BE895FF0F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E67729C8D94DDC8C21AADEE99418120E /* HTAutocompleteTextField.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		370AF5B8201576B23AB599C41739D79B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFA2E2F6D30A35F81A066A07EE923DB8 /* HTAutocompleteTextField.modulemap */,
+				8B3B4922CF6A727692CBFFFE56F67858 /* HTAutocompleteTextField.xcconfig */,
+				18798F9619DCB704DCD7F1D1C178F63E /* HTAutocompleteTextField-dummy.m */,
+				EEC970578FBC6C8B5A8B04208171BC0C /* HTAutocompleteTextField-Info.plist */,
+				B4DD458B36966E0405CBBFB5BB3BCE0D /* HTAutocompleteTextField-prefix.pch */,
+				DC240E38B8EFB7B0ADE411B152C318FD /* HTAutocompleteTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HTAutocompleteTextField";
+			sourceTree = "<group>";
+		};
+		7332AB0839A08F6E563C63F3479DFF94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB36B69C0895C88D9655B3F0E0D10049 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8468D5F5277A650D7D6C5E2BC9CEC6CB = {
+			isa = PBXGroup;
+			children = (
+				7332AB0839A08F6E563C63F3479DFF94 /* Frameworks */,
+				BC2338266317E391815ABBEB282098CD /* HTAutocompleteTextField */,
+				0162CB21F9286F0AB315C7BE895FF0F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC2338266317E391815ABBEB282098CD /* HTAutocompleteTextField */ = {
+			isa = PBXGroup;
+			children = (
+				31279D9CF6631A421E09CA6B29F4332F /* HTAutocompleteTextField.h */,
+				A7BF6B4029097ADFB6DA52499C8A3264 /* HTAutocompleteTextField.m */,
+				E40FC4CF9087733EC869CBBE3DB23DBE /* HTEmailAutocompleteTextField.h */,
+				AE55A5884D1CFC81DBFB64E66404B63E /* HTEmailAutocompleteTextField.m */,
+				370AF5B8201576B23AB599C41739D79B /* Support Files */,
+			);
+			name = HTAutocompleteTextField;
+			path = HTAutocompleteTextField;
+			sourceTree = "<group>";
+		};
+		FB36B69C0895C88D9655B3F0E0D10049 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEE1B2E4A246B73E8EA55D7DB3E01927 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1481FAA90A726EEA8C8D9BE7D8780EE8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF22A6A68A0A90CCA7A918446733C42 /* HTAutocompleteTextField-umbrella.h in Headers */,
+				CF1CB72A16C80998FF17B6D703A6F792 /* HTAutocompleteTextField.h in Headers */,
+				BB996CB98815964CDB7DB368EA49A97B /* HTEmailAutocompleteTextField.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7B7B04646AE57E820C0087905AE4117E /* HTAutocompleteTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2FF5C09BDB10EFA3CC0ECE2A9750844 /* Build configuration list for PBXNativeTarget "HTAutocompleteTextField" */;
+			buildPhases = (
+				1481FAA90A726EEA8C8D9BE7D8780EE8 /* Headers */,
+				33C72F6EE2E4E341E30598BEFFCAD25D /* Sources */,
+				F6F6A777198641C2F69A1C3B4BFBE501 /* Frameworks */,
+				F06BF2BEB6B809EDA42B375F331A20CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HTAutocompleteTextField;
+			productName = HTAutocompleteTextField;
+			productReference = E67729C8D94DDC8C21AADEE99418120E /* HTAutocompleteTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADFF1433A1C705EF3999A9778CDAE419 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 9BC29100C8D94086D188DAD13B429FBF /* Build configuration list for PBXProject "HTAutocompleteTextField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8468D5F5277A650D7D6C5E2BC9CEC6CB;
+			productRefGroup = 0162CB21F9286F0AB315C7BE895FF0F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B7B04646AE57E820C0087905AE4117E /* HTAutocompleteTextField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F06BF2BEB6B809EDA42B375F331A20CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33C72F6EE2E4E341E30598BEFFCAD25D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9525978F7B853F057A6A9432C1ECF36 /* HTAutocompleteTextField-dummy.m in Sources */,
+				2005F92C22768B720100AD49B3651286 /* HTAutocompleteTextField.m in Sources */,
+				F309BA0953D14686565268D9C709CA23 /* HTEmailAutocompleteTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3DCAA362EE2797D34B331D39A0E4A7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B3B4922CF6A727692CBFFFE56F67858 /* HTAutocompleteTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HTAutocompleteTextField/HTAutocompleteTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HTAutocompleteTextField/HTAutocompleteTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HTAutocompleteTextField/HTAutocompleteTextField.modulemap";
+				PRODUCT_MODULE_NAME = HTAutocompleteTextField;
+				PRODUCT_NAME = HTAutocompleteTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		93BF8F258F05A604AA48C1E1B931869D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B3B4922CF6A727692CBFFFE56F67858 /* HTAutocompleteTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HTAutocompleteTextField/HTAutocompleteTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HTAutocompleteTextField/HTAutocompleteTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HTAutocompleteTextField/HTAutocompleteTextField.modulemap";
+				PRODUCT_MODULE_NAME = HTAutocompleteTextField;
+				PRODUCT_NAME = HTAutocompleteTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9F074D68BF2739CF4B789A5F6059CC19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EA13A71536EDC04D267C550855F7106F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BC29100C8D94086D188DAD13B429FBF /* Build configuration list for PBXProject "HTAutocompleteTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA13A71536EDC04D267C550855F7106F /* Debug */,
+				9F074D68BF2739CF4B789A5F6059CC19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2FF5C09BDB10EFA3CC0ECE2A9750844 /* Build configuration list for PBXNativeTarget "HTAutocompleteTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCAA362EE2797D34B331D39A0E4A7FA /* Debug */,
+				93BF8F258F05A604AA48C1E1B931869D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADFF1433A1C705EF3999A9778CDAE419 /* Project object */;
+}
